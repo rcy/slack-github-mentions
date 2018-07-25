@@ -5,6 +5,7 @@ const gh2s = {
   '@glister': '@gary',
   '@maxiperezc': '@maxi',
   '@rcy': '@ryan',
+  '@obweng': '@ryan',
 }
 
 export default gh2s
