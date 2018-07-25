@@ -1,0 +1,23 @@
+{
+  "name": "slack-github-mentions",
+  "version": "1.0.0",
+  "description": "Slack GitHub Notifications",
+  "repository": "https://github.com/outboundworks/slacknot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --experimental-modules -r dotenv/config main.mjs",
+    "start": "node --experimental-modules -r dotenv/config main.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ryan@outboundworks.com",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^4.3.1",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3",
+    "now": "^11.3.1"
+  }
+}
